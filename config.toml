@@ -1,0 +1,84 @@
+baseURL = "http://ersatzlife.com/"
+title = "Ersatz Life"
+
+theme = "hugo-coder"
+
+languageCode = "en-us"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+
+[params]
+	author = "Brian F. Allen"
+	description = "Notes and explorations about artificial life."
+	keywords = "artificial life, alife, ai, simulation"
+	footercontent = "Footer content goes here"
+    avatarurl = "images/dna.svg"
+
+    dateformat = "2 January 2006"
+
+    hideFooter = false
+    hideCredits = false
+    hideCopyright = false
+    since = 2020
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    # commit = "https://github.com/luizdepra/hugo-coder/tree/"
+    # Specify light/dark colorscheme
+    # Supported values:
+    # "auto" (use preference set by browser)
+    # "dark" (dark background, light foreground)
+    # "light" (light background, dark foreground) (default)
+    colorscheme = "dark"
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Custom CSS
+    custom_css = []
+
+    # Custom JS
+    custom_js = []
+
+
+
+[taxonomies]
+	series = "series"
+
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/slightperturbation/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/chokma/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/brianfallen/"
+
+[[menu.main]]
+	name = "About"
+	weight = 1
+	url = "about/"
+[[menu.main]]
+	name = "Blog"
+	weight = 1
+	url = "posts/"
+[[menu.main]]
+	name = "Projects"
+	weight = 1
+	url = "projects/"
+
+
